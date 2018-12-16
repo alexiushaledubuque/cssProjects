@@ -27,13 +27,29 @@ header, footer {
     height: 100px;
 }
 
-.main-content-area {
-	flex: 2;
-}
-
 .sidebar-right {
 	background-color: blue;
 	color: white
+}
+
+h1 {
+	color: red;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+@media screen and (min-width: 1120px) {
+
+	.content-area {
+		display: flex;
+	}
+
+	.sidebar-right {
+		flex: 0 0 320px;
+	}
 }
 
 /*--------------------------------------------------------------
@@ -116,6 +132,36 @@ End Header styles
 	padding: 20px;
 	text-align: center;
 	margin: 0 -40px 30px;
+}
+
+@media screen and (min-width: 810px) {
+
+	.posts {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.post {
+		flex-basis: 49%;
+	}
+
+}
+
+@media screen and (min-width: 1120px) {
+
+	.post-one-third {
+		flex-basis: 32%;
+	}
+
+	.post-half {
+		flex-basis: 49%;
+	}
+
+	.post-full {
+		flex-basis: 100%;
+	}
+
 }
 
 /*--------------------------------------------------------------
