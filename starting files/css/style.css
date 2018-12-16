@@ -309,7 +309,7 @@ start Section download styles
 	align-items: center;
 }
 
-/*.download-info h4 {
+.download-info h4 {
 	flex-basis: 20%;
 }
 
@@ -330,7 +330,7 @@ start Section download styles
 	.download-info {
 		flex-grow: 2;
 	}
-}*/
+}
 
 /*--------------------------------------------------------------
 	END DOWNLOAD SECTION STYLES
