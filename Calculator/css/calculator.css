@@ -25,10 +25,11 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	border: 5px inset yellow;
+	align-items: 
+	border: 5px outset yellow;
 	width: 95%;
 	height: 85%;
-	margin-top: 2px;
+	margin-top: 5px;
 }
 .detail-row, #last-row {
 	display: flex;
@@ -37,11 +38,16 @@
 	height: 80px;
 }
 .box {
-	width: 20%;
+	display: flex;
+	justify-content: center;
+	/*padding: 5px;*/
+	width: 22%;
 	height: 80%;
 	border: 2px outset white;
 }
 #last-row .box {
+	display: flex;
+	/*align-items: stretch;*/
 	width: 30%;
 	height: 85%;
 }
