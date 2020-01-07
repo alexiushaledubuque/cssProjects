@@ -6,48 +6,75 @@
 	display: flex;
 	flex-direction: column;
 	margin: 20px;
-	width: 30%;
-	height: 400px;
-	border: 10px inset green;
+	width: 50%;
+	height: 500px;
+	border: 1px solid silver;
 	background-color: gray;
+	border-radius: 2%;
 }
 #top-section {
-	border: 5px inset yellow;
-	width: 95%;
-	height: 10%;
+	display: flex;
+	flex-direction: column;
+	border: 5px solid yellow;
+	width: 97%;
+	height: 160px;
 }
-#number-input {
-  width: 97%;
-  height: 89%;
-  float: left;
+#inline-dots {
+	display: flex;
+	margin-bottom: 10px;
 }
+.dots {
+	display: flex;
+	width: 15px;
+	height: 15px;
+	background-color: purple;
+	border-radius: 50%;
+	margin: 5px;
+}
+#dot1 {
+	background-color: red;
+	margin-right: 5px;
+}
+#dot2 {
+	background-color: yellow;
+	margin-right: 5px;
+}
+#dot3 {
+	background-color: green;
+}
+#input-container {
+	width: 100%;
+	height: 30%;
+}
+/*#number-input {
+	display: flex;
+	justify-content: flex-end;
+}*/
 #remaining-section {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	flex-basis: 80%;
+	/*justify-content: space-around;*/
 	align-items: 
-	border: 5px outset yellow;
+	border: 5px solid yellow;
 	width: 95%;
 	height: 85%;
 	margin-top: 5px;
 }
 .detail-row, #last-row {
 	display: flex;
-	justify-content: space-around;
+	/*justify-content: space-around;*/
 	width: 100%;
 	height: 80px;
 }
 .box {
 	display: flex;
-	justify-content: center;
-	/*padding: 5px;*/
 	width: 22%;
 	height: 80%;
 	border: 2px outset white;
 }
 #last-row .box {
 	display: flex;
-	/*align-items: stretch;*/
 	width: 30%;
 	height: 85%;
 }
